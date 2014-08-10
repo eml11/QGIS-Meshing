@@ -43,7 +43,7 @@ to enable compound lines.
 #import for message box to display error
 #from PyQt4.QtGui import QMessageBox
 import numpy as np
-import pyproj
+import mpl_toolkits.basemap.pyproj as pyproj
 
 def gmshStereoProj(pointCoords):
     """Apply Gmsh's stereographic steroegraphic projection to points in longitude-latitude"""
